@@ -18,5 +18,17 @@ KodePos kebonwaru = new KodePos("kebonwaru", 40272);
 KodePos maleer = new KodePos("maleer", 40274);
 KodePos samoja = new KodePos("samoja", 40273);
 
+//kode Pos Batununggal
+Console.WriteLine(batununggal.getKodePos());
+
+
+DoorMachine state = new DoorMachine();
+Console.WriteLine(state.getState());
+//buka pintu
+state.bukaPintu();
+Console.WriteLine(state.getState());
+//tutup pintu
+state.tutupPintu();
+Console.WriteLine(state.getState());
 
 
